@@ -1,0 +1,8 @@
+2018-10-25 11:02:09.020[%PARSER_ERROR[thead]]DEBUG com.wh.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?,?, ?, ?, ?) 
+2018-10-25 11:02:09.053[%PARSER_ERROR[thead]]DEBUG com.wh.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试中的店铺(String), test(String), test(String), test(String), test(String), null, 2018-10-25 11:02:08.626(Timestamp), null, 1(Integer), 审核中(String)
+2018-10-25 11:04:03.369[%PARSER_ERROR[thead]]DEBUG com.wh.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?,?, ?, ?, ?) 
+2018-10-25 11:04:03.407[%PARSER_ERROR[thead]]DEBUG com.wh.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试中的店铺(String), test(String), test(String), test(String), test(String), null, 2018-10-25 11:04:02.98(Timestamp), null, 1(Integer), 审核中(String)
+2018-10-25 11:04:03.439[%PARSER_ERROR[thead]]DEBUG com.wh.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2018-10-25 11:27:58.218[%PARSER_ERROR[thead]]DEBUG com.wh.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc = ?, shop_addr = ?, last_edit_time = ? where shop_id = ? 
+2018-10-25 11:27:58.258[%PARSER_ERROR[thead]]DEBUG com.wh.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2018-10-25 11:27:57.819(Timestamp), 1(Long)
+2018-10-25 11:27:58.299[%PARSER_ERROR[thead]]DEBUG com.wh.o2o.dao.ShopDao.updateShop - <==    Updates: 1
